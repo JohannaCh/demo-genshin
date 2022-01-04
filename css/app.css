@@ -1,0 +1,147 @@
+
+/*GLOBALES*/
+
+.t-w{
+    color: white;
+}
+
+h3, h5, li{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.fs-7{
+    font-size: 0.8rem;
+}
+
+
+/*NAVEGACION*/
+.bg-navbar{
+    background-color: #1d1f33;
+}
+
+/*separador ribbon*/
+
+#ribbon{
+    background-image: url(/img/bg-ribbon.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#birthday{
+    background-color: #ba8b5d;
+    position: relative;
+    margin-top: -20px;
+    z-index: 5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#birthday img{
+    position: relative;
+    margin-top: -30px; /*sobresale hacia arriba*/
+}
+
+/*separador transicion*/
+.bg-separator{
+    background-color: #1d1f33;
+}
+#separator-ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separator-ribbon .content{
+    width: 150%;
+    height: 100px;
+    margin-left: -25%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+}
+
+/*personajes*/
+
+.card-border{
+    background-color: #ba8b5d;
+    border: solid 5px #ba8b5d ;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+    background-color: #ffeacc;
+    border: solid 5px #ffeacc;
+    cursor: pointer;
+}
+.card-title, .card-text{
+    color: #261f14;
+}
+
+#character{
+    background-image: url(/img/bg-personajes.jpg);
+    margin-top: -20px;
+}
+
+.btn-outline-gold{
+    border-color: #ba8b5d;
+    color: #ba8b5d;
+    transition: all ease-out 0.2s;
+}
+
+.btn-outline-gold:hover{
+    color: #1d1f33;
+    background-color: #ba8b5d;
+}
+
+
+/* NOTICIAS */
+
+#news{
+    background-color:#ba8b5d;
+}
+.c-scale{
+    transition: all ease-out 0.2s;
+}
+.c-scale:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+#up-icon{
+   width: 80px;
+   height: auto;
+   margin-top: -200px; 
+}
+
+#footer{
+    background-color: #1d1f33;
+}
+
+.linkedin{
+    text-decoration: none;
+    color: #ba8b5d;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all ease-out 0.2s;
+}
+
+.linkedin:hover{
+    cursor: pointer;
+    color: #ffeacc;
+}
